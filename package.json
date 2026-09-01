@@ -1,0 +1,29 @@
+{
+  "name": "objektvision-scraper",
+  "version": "1.0.0",
+  "description": "API-based scraper for Objektvision.se",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "login": "ts-node login.ts",
+    "convert-cookies": "ts-node convert-cookies.ts",
+    "sniff": "ts-node sniff.ts",
+    "sniff2": "ts-node sniff2.ts",
+    "inspect": "ts-node inspect.ts",
+    "inspect2": "ts-node inspect2.ts",
+    "inspect3": "ts-node inspect3.ts",
+    "scrape": "ts-node scrape.ts",
+    "hubspot-export": "ts-node hubspot-export.ts",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.0"
+  }
+}
