@@ -1,4 +1,4 @@
-# Objektvision Scraper
+# Objektvision Scraper V3
 
 Ett automatiserat verktyg för att scrapa företagsdata, kontaktuppgifter och objektlistningar från [Objektvision.se](https://objektvision.se), med export till Google Sheets och HubSpot.
 
