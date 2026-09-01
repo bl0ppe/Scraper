@@ -26,9 +26,7 @@ Ett automatiserat verktyg för att scrapa företagsdata, kontaktuppgifter och ob
 ## Installation
 
 ```bash
-# Klona repot
-git clone https://github.com/DITT-ANVÄNDARNAMN/objektvision-scraper.git
-cd objektvision-scraper
+# Ladda ned repot
 
 # Installera dependencies
 yarn install
